@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+		<html>
+			<head>
+				<title>About Us</title>
+			</head>
+			<body>
+				<p class="heading">ABOUT</p>
+				<h2><strong><u>Mission</u></strong></h2>
+				<xsl:for-each select="about">
+					<p style="margin-left:10px;"><xsl:value-of select="mission"/></p>
+				</xsl:for-each>
+				<table border="0">
+					<tr bgcolor="#424242">
+						<th style="padding:10px;">Dev</th>
+						<th>Info</th>
+					</tr>
+					<xsl:for-each select="about/developers/developer">
+						<tr>
+							<td style="padding:10px;"><xsl:value-of select="name"/></td>
+							<td><xsl:value-of select="information"/></td>
+						</tr>
+					</xsl:for-each>
+				</table>
+				<br />
+				<a href="../../login.html" style="text-decoration:none color:black">Return</a>
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>

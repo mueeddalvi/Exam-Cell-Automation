@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/about.xsl"?>
+
+<about>
+	<mission>
+    	 The website aims to bring in a centralized system that will ensure the activities in the context of an examination that can be effectively managed.This system allows students to enroll themselves into the system by registering their names or by sharing details to admin.
+	</mission>
+	<developers>
+		<developer>
+			<name>Abdul Dalvi</name>
+			<information>Develops interactice website using HTML,CSS,PHP,MySQl coped with amazing management skills</information>
+		</developer>
+		<developer>
+			<name>Anish Deshmukh</name>
+			<information>Develops interactice website using HTML,CSS,PHP,MySQl</information>
+		</developer>
+		<developer>
+			<name>Shrushti Bhosale</name>
+			<information>Amazing with designs and styling of website</information>
+		</developer>
+	</developers>
+</about>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/about.xsl"?>
+
+<about>
+	<mission>
+    	 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in hendrerit dui. Ut ac scelerisque odio. Nam quis arcu vulputate, mattis felis at, viverra arcu. Ut fringilla, velit eu tempus sodales, ante arcu scelerisque tortor, et elementum felis dolor ut nulla. Fusce ac viverra metus. Nullam interdum porta lectus at ultrices. Praesent gravida pellentesque odio eu mattis. Curabitur tempus ultricies ultrices. Maecenas ut dignissim odio. Morbi pretium id eros quis lobortis.
+	</mission>
+	<developers>
+		<developer>
+			<name>Abdul Dalvi</name>
+			<information>Lorem ipsum dolor sit amet, consectetur adipiscing elit</information>
+		</developer>
+		<developer>
+			<name>Anish Deshmukh</name>
+			<information>Lorem ipsum dolor sit amet, consectetur adipiscing elit</information>
+		</developer>
+		<developer>
+			<name>Shrushti Bhosale</name>
+			<information>Lorem ipsum dolor sit amet, consectetur adipiscing elit</information>
+		</developer>
+	</developers>
+</about>

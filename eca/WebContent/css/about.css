@@ -1,0 +1,143 @@
+body {
+    background-color:#f4f4f4;
+    min-width: 768px;
+    width: auto;
+    height: auto;
+    user-select: none;
+    -moz-user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding-top: 10vh;
+    background-color:#f4f4f4;
+    width:80%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 70vh;
+    color: black;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color:white;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+  
+#text{
+    padding-top: 10px;
+    color:white;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: black;
+}   
+
+.content{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#back{
+    background-color:#303030;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color:white;
+	background-color: #e8491d;
+	text-align: center;
+}
+
+#fnav{
+
+	float:center;
+  	margin-top:10px;
+}
+
+#fnav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#fnav li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+table{
+    margin: auto;
+    align-self: center;
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 50%;
+    height: 30vh;
+    color: black;
+    text-align: center;
+}
+
+th, td, tr{
+    border: 2px solid black ;
+}
+
+th{
+    background-color: #e8491d;;
+}
+
+header{
+	background: #35424a;
+	color: white;
+	border-bottom: #e8491d 3px solid;
+    min-height: 70px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}

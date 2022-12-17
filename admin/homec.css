@@ -1,0 +1,144 @@
+body{
+
+	margin: 0;
+	padding:0;
+	font:15px/1.5  Arial,Helvetica, sans-serif;
+	background-color: #f4f4f4;
+}
+
+ul{
+	margin: 0;
+	padding:0;
+}
+
+
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header{
+	background: #35424a;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}
+
+/*Showcase*/
+#showcase{
+
+	min-height: 400px;
+	/*background-image: url("../img/uni.png");
+	 background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+ 	 position: relative;*/
+ 	 text-align: center;
+ 	 background: #35424a;
+ 	 color: white;
+}
+
+#showcase .highlight{
+	color: #e8491d;
+	font-weight: bold;
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding:10px;
+	text-align: center;
+}
+
+#boxes .box img{
+	width: 150px;
+}
+
+#boxes a{
+	text-decoration: none;
+	color:black;
+}
+#boxes a:hover{
+	color: #e8491d;
+	font-weight: bold;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color:white;
+	background-color: #e8491d;
+	text-align: center;
+}
+
+#fnav{
+
+	float:center;
+  	margin-top:10px;
+}
+
+#fnav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#fnav li{
+	float: center;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
